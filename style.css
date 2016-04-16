@@ -21,12 +21,16 @@ ol.references {
       text-align: right;
       padding-right: 1em; }
 
-figcaption {
-  font-weight: bold; }
-
-article > section > h1 {
-  font-size: 1em;
+article > section h1 {
+  font-size: 1.5em;
   text-transform: uppercase; }
+article > section section > h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: lighter; }
+
+figure figcaption {
+  font-weight: bold; }
 
 blockquote {
   padding-left: 24px;
@@ -42,11 +46,6 @@ ins {
   background: #E82927;
   color: #fff;
   text-decoration: none; }
-
-img {
-  height: auto;
-  width: 100%;
-  max-width: 100%; }
 
 button,
 input[type="button"],
@@ -371,6 +370,9 @@ body[class*="front-page"] .hero {
     width: 525px; }
 
   .twoRowGrid .grid:nth-of-type(2n+2) {
-    margin-right: 0px; } }
+    margin-right: 0px; }
+
+  .content-area {
+    width: 960px; } }
 
 /*# sourceMappingURL=style.css.map */

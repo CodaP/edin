@@ -28,13 +28,23 @@ ol.references {
 	}
 }
 
-figcaption {
-	font-weight: bold;
+article > section {
+	h1 {
+		font-size:1.5em;
+		text-transform: uppercase;
+	}
+	section > h2 {
+		font-size:1.2em;
+		text-transform: uppercase;
+		font-weight:lighter;
+	}
+
 }
 
-article > section > h1 {
-	font-size:1em;
-	text-transform: uppercase;
+figure {
+	figcaption {
+		font-weight: bold;
+	}
 }
 
 blockquote {
@@ -54,11 +64,6 @@ ins {
 	text-decoration: none;
 }
 
-img {
-	height: auto;
-	width: 100%;
-	max-width: 100%;
-}
 
 button,
 input[type="button"],
@@ -414,10 +419,13 @@ body[class*="front-page"] .hero {
 }
 
 @media screen and (min-width: 1230px) {
-		.twoRowGrid .grid {
+    .twoRowGrid .grid {
         width: 525px;
     }
     .twoRowGrid .grid:nth-of-type(2n+2) {
         margin-right: 0px;
+    }
+    .content-area{
+        width: 960px;
     }
 }
