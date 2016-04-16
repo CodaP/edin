@@ -9,6 +9,25 @@
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url("../edin/style.css");
+ol.references {
+  counter-reset: ref-num;
+  display: table; }
+  ol.references li {
+    counter-increment: ref-num;
+    display: table-row; }
+    ol.references li::before {
+      content: counter(ref-num) ".";
+      display: table-cell;
+      text-align: right;
+      padding-right: 1em; }
+
+figcaption {
+  font-weight: bold; }
+
+article > section > h1 {
+  font-size: 1em;
+  text-transform: uppercase; }
+
 blockquote {
   padding-left: 24px;
   margin: 0 auto 17px;

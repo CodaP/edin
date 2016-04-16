@@ -13,6 +13,30 @@
 
 $red-color: #E82927;
 
+ol.references {
+	counter-reset: ref-num;
+	display: table;
+	li {
+		counter-increment: ref-num;
+		display: table-row;
+		&::before{
+			content: counter(ref-num) ".";
+			display: table-cell;
+			text-align: right;
+			padding-right: 1em;
+		}
+	}
+}
+
+figcaption {
+	font-weight: bold;
+}
+
+article > section > h1 {
+	font-size:1em;
+	text-transform: uppercase;
+}
+
 blockquote {
 	padding-left: 24px;
 	margin: 0 auto 17px;
