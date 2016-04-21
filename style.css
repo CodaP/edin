@@ -375,9 +375,6 @@ body[class*="front-page"] .hero {
     width: 525px; }
 
   .twoRowGrid .grid:nth-of-type(2n+2) {
-    margin-right: 0px; }
-
-  .content-area {
-    width: 960px; } }
+    margin-right: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
