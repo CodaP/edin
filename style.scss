@@ -13,6 +13,18 @@
 
 $red-color: #E82927;
 
+.single .byline, .group-blog .byline {
+    display: block;
+    text-transform: uppercase;
+    &::before{
+        content: "BY | ";
+    }
+}
+
+span.posted-on {
+    text-transform: uppercase;
+}
+
 ol.references {
 	counter-reset: ref-num;
 	display: table;

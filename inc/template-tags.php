@@ -21,6 +21,11 @@ function edin_posted_on() {
                 _x( 'Posted on %s', 'post date', 'edin' ), 
                 '<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>' 
         ); 
+
+	$author = get_post_meta(get_the_ID(), 'author', true);
+	if( $author ) {
+		echo '<span class="byline">' . $author . '</span>';
+	}
  
         echo '<span class="posted-on">' . $posted_on; 
  

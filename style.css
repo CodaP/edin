@@ -9,6 +9,15 @@
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url("../edin/style.css");
+.single .byline, .group-blog .byline {
+  display: block;
+  text-transform: uppercase; }
+  .single .byline::before, .group-blog .byline::before {
+    content: "BY | "; }
+
+span.posted-on {
+  text-transform: uppercase; }
+
 ol.references {
   counter-reset: ref-num;
   display: table; }
