@@ -11,7 +11,8 @@
 @import url("../edin/style.css");
 .single .byline, .group-blog .byline {
   display: block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 1.2em; }
   .single .byline::before, .group-blog .byline::before {
     content: "BY | "; }
 
