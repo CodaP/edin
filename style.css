@@ -9,6 +9,9 @@
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url("../edin/style.css");
+.content-area p {
+  font-family: Georgia, serif; }
+
 body.single-post div#primary {
   max-width: 960px;
   width: 100%; }
@@ -74,9 +77,11 @@ ol.references {
 
 article > section h1 {
   font-size: 1.5em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border-bottom: 2px solid #E82927;
+  line-height: 200%; }
 article > section section > h2 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-transform: uppercase;
   font-weight: lighter; }
 
