@@ -13,6 +13,40 @@
 
 $red-color: #E82927;
 
+.page-template-table-of-contents {
+    .content-area {
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: block;
+            min-height: 4em;
+            border: 1px solid lightgray;
+            margin: 5px auto;
+            padding: 5px 10px;
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+            align-items: center;
+            
+            a {
+                border: 0;
+                font-size: 150%;
+            }
+            span {
+                font-size: 150%;
+                padding: 5px 10px;
+                font-weight:bold;
+            }
+        }
+    }
+    div#primary {
+        max-width: 960px;
+        width: 100%;
+    }
+}
+
 .home {
     .hero .entry-content {
         text-align: center;

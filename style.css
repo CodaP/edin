@@ -9,6 +9,30 @@
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url("../edin/style.css");
+.page-template-table-of-contents .content-area p {
+  margin: 0;
+  padding: 0; }
+.page-template-table-of-contents .content-area li {
+  display: block;
+  min-height: 4em;
+  border: 1px solid lightgray;
+  margin: 5px auto;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center; }
+  .page-template-table-of-contents .content-area li a {
+    border: 0;
+    font-size: 150%; }
+  .page-template-table-of-contents .content-area li span {
+    font-size: 150%;
+    padding: 5px 10px;
+    font-weight: bold; }
+.page-template-table-of-contents div#primary {
+  max-width: 960px;
+  width: 100%; }
+
 .home .hero .entry-content {
   text-align: center; }
 .home .hero a.button, .home .hero a.button-minimal {
