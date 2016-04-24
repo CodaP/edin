@@ -9,6 +9,17 @@
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url("../edin/style.css");
+.home .hero .entry-content {
+  text-align: center; }
+.home .hero a.button, .home .hero a.button-minimal {
+  padding: 6px 24px;
+  border-width: 2px;
+  border-color: #fff;
+  font-size: 0.875em;
+  line-height: 1.71429em;
+  position: relative;
+  top: 190px; }
+
 body:not(.home) .hero.with-featured-image:before {
   content: '';
   position: absolute;
