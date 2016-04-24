@@ -259,19 +259,21 @@ a.button-minimal:active {
 .format-link .entry-title a:active:after {
   color: #E82927; }
 
+.home .hero.with-featured-image {
+  background-position-y: -10px; }
+
 .hero.with-featured-image {
   padding: 170px 0px;
   position: relative;
   margin-top: -1px;
   background-color: #E82927;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
   border-bottom: 0;
-  max-width: 1500px;
   margin: auto; }
 
 .hero.with-featured-image .page-title,
