@@ -13,6 +13,17 @@
 
 $red-color: #E82927;
 
+body:not(.home) .hero.with-featured-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+}
+
 .content-area p {
     font-family: Georgia, serif;
 }
