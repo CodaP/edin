@@ -295,7 +295,10 @@ a.button-minimal:active {
   color: #E82927; }
 
 .home .hero.with-featured-image {
-  background-position-y: -10px; }
+  background-position: 0 -10px;
+  -moz-background-position: 0 -10px;
+  -o-background-position: 0 -10px;
+  -webkit-background-position: 0 -10px; }
 
 .hero.with-featured-image {
   padding: 170px 0px;
