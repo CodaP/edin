@@ -123,12 +123,12 @@ ol.references {
       text-align: right;
       padding-right: 1em; }
 
-article > section h1 {
+article section h1 {
   font-size: 1.5em;
   text-transform: uppercase;
   border-bottom: 2px solid #E82927;
   line-height: 200%; }
-article > section section > h2 {
+article section section > h2 {
   font-size: 1.1em;
   text-transform: uppercase;
   font-weight: lighter; }
