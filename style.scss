@@ -13,6 +13,17 @@
 
 $red-color: #E82927;
 
+ul.article-links{
+    list-style-type: none;
+    li {
+	h3 {
+            margin:0;
+        }
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+
 .page-template-table-of-contents {
     .content-area {
         p {
@@ -81,7 +92,9 @@ body:not(.home) .hero.with-featured-image:before {
     font-family: Georgia, serif;
 }
 
-body.single-post div#primary {
+body.single-post div#primary,
+body.category div#primary
+{
     max-width: 960px;
     width: 100%;
 }

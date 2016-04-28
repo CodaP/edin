@@ -9,6 +9,14 @@
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url("../edin/style.css");
+ul.article-links {
+  list-style-type: none; }
+  ul.article-links li {
+    padding-left: 20px;
+    margin-bottom: 20px; }
+    ul.article-links li h3 {
+      margin: 0; }
+
 .page-template-table-of-contents .content-area p {
   margin: 0;
   padding: 0; }
@@ -60,7 +68,8 @@ body:not(.home) .hero.with-featured-image:before {
 .content-area li {
   font-family: Georgia, serif; }
 
-body.single-post div#primary {
+body.single-post div#primary,
+body.category div#primary {
   max-width: 960px;
   width: 100%; }
 
