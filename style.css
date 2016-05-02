@@ -345,6 +345,9 @@ a.button-minimal:active {
 
 .hero.without-featured-image {
   margin-top: 60px; }
+  @media (min-width: 600px) and (max-width: 780px) {
+    .hero.without-featured-image {
+      margin-top: 150px; } }
 
 .home .hero.with-featured-image {
   margin-top: 60px;
