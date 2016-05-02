@@ -32,6 +32,9 @@ body.category .hero {
       color: #fff;
       text-shadow: 2px 2px #E82927;
       font-size: 700%; }
+      @media screen and (max-device-width: 500px) {
+        body.category .hero .hero-wrapper h1 {
+          font-size: 400%; } }
 
 ul.article-links {
   list-style-type: none;
