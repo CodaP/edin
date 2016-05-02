@@ -343,6 +343,9 @@ a.button-minimal:active {
 .format-link .entry-title a:active:after {
   color: #E82927; }
 
+.hero.without-featured-image {
+  margin-top: 60px; }
+
 .home .hero.with-featured-image {
   margin-top: 60px;
   background-position: 50% 10px;

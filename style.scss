@@ -416,6 +416,10 @@ a.button-minimal:active {
     color: $red-color;
 }
 
+.hero.without-featured-image {
+    margin-top: 60px;
+}
+
 .home .hero.with-featured-image {
     @media screen and (max-device-width: $break-small){
         background-position: 50% 45px;
