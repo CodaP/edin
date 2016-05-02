@@ -27,7 +27,7 @@ body.category .hero {
     background-size: cover;
     content: "";
     width: 100%;
-    height: 500px;
+    height: 100%;
     position: absolute;
     z-index: -1; }
   body.category .hero .hero-wrapper {
