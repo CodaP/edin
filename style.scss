@@ -15,6 +15,13 @@ $red-color: #E82927;
 
 $break-small: 1020px;
 
+#masthead{
+    position:fixed;
+    left: 0px;
+    right: 0px;
+    z-index:100;
+}
+
 @media screen and (min-device-width: $break-small){
     .home .site-content {
 	padding-bottom:500px;
@@ -412,12 +419,13 @@ a.button-minimal:active {
 
 .home .hero.with-featured-image {
     @media screen and (max-device-width: $break-small){
-        background-position: 50% 25px;
+        background-position: 50% 45px;
     }
-    background-position: 50% -10px;
-    -moz-background-position: 0 -10px;
-    -o-background-position: 0 -10px;
-    -webkit-background-position: 0 -10px;
+    margin-top: 60px;
+    background-position: 50% 10px;
+    -moz-background-position: 0 10px;
+    -o-background-position: 0 10px;
+    -webkit-background-position: 0 10px;
 }
 
 .hero.with-featured-image {

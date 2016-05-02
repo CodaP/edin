@@ -9,6 +9,12 @@
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url("../edin/style.css");
+#masthead {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  z-index: 100; }
+
 @media screen and (min-device-width: 1020px) {
   .home .site-content {
     padding-bottom: 500px; } }
@@ -339,13 +345,14 @@ a.button-minimal:active {
   color: #E82927; }
 
 .home .hero.with-featured-image {
-  background-position: 50% -10px;
-  -moz-background-position: 0 -10px;
-  -o-background-position: 0 -10px;
-  -webkit-background-position: 0 -10px; }
+  margin-top: 60px;
+  background-position: 50% 10px;
+  -moz-background-position: 0 10px;
+  -o-background-position: 0 10px;
+  -webkit-background-position: 0 10px; }
   @media screen and (max-device-width: 1020px) {
     .home .hero.with-featured-image {
-      background-position: 50% 25px; } }
+      background-position: 50% 45px; } }
 
 .hero.with-featured-image {
   padding: 170px 0px;
