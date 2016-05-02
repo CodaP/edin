@@ -13,7 +13,13 @@
 
 $red-color: #E82927;
 
-$break-small: 500px;
+$break-small: 1020px;
+
+@media screen and (min-device-width: $break-small){
+    .home .site-content {
+	padding-bottom:500px;
+    }
+}
 
 body.category {
 	.hero {
@@ -405,7 +411,10 @@ a.button-minimal:active {
 }
 
 .home .hero.with-featured-image {
-    background-position: 0 -10px;
+    @media screen and (max-device-width: $break-small){
+        background-position: 50% 25px;
+    }
+    background-position: 50% -10px;
     -moz-background-position: 0 -10px;
     -o-background-position: 0 -10px;
     -webkit-background-position: 0 -10px;
