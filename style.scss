@@ -43,10 +43,18 @@ body.category {
 			z-index:-1;
 		}
 		.hero-wrapper {
+			display:-webkit-box;
+			display:-webkit-flex;
+			display:-ms-flexbox;
 			display:flex;
-			align-items: center;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			    -ms-flex-align: center;
+			        align-items: center;
 			margin-top: 50px;
-		        justify-content: space-around;
+		        -webkit-justify-content: space-around;
+		            -ms-flex-pack: distribute;
+		                justify-content: space-around;
 		        width: 100%;
 			h1 {
 			    @media screen and (max-device-width: $break-small) {
@@ -86,10 +94,22 @@ ul.article-links{
             border: 1px solid lightgray;
             margin: 5px auto;
             padding: 5px 10px;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: row;
-            align-content: space-between;
-            align-items: center;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: row;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-align-content: space-between;
+                -ms-flex-line-pack: justify;
+                    align-content: space-between;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
             
             a {
                 border: 0;
@@ -169,8 +189,7 @@ body.category div#primary
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none;   /* Chrome/Safari/Opera */
-  -khtml-user-select: none;    /* Konqueror */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */    /* Konqueror */
   -moz-user-select: none;      /* Firefox */
   -ms-user-select: none;       /* IE/Edge */
   user-select: none;           /* non-prefixed version, currently
@@ -325,8 +344,6 @@ a.button-minimal:active {
     color: $red-color;
 }
 .menu-toggle:focus:before {
-    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow:    inset 0 0 4px rgba(0, 0, 0, 0.75);
     box-shadow:         inset 0 0 4px rgba(0, 0, 0, 0.75);
 }
 .menu-toggle.open:before { 
@@ -441,9 +458,6 @@ a.button-minimal:active {
     background-color: $red-color;
     background-repeat: no-repeat;
     background-attachment:fixed;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
     background-size: cover;
     border-bottom: 0;
     margin: auto;
@@ -490,8 +504,6 @@ body[class*="front-page"] .hero {
     font-size: inherit;
     font-weight: bold;
     text-transform: uppercase;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
     border-radius: 0;
 }
 
