@@ -87,8 +87,7 @@ ul.article-links {
   border-color: #fff;
   font-size: 0.875em;
   line-height: 1.71429em;
-  position: relative;
-  top: 190px; }
+  position: relative; }
 
 body:not(.home) .hero.with-featured-image:before {
   content: '';
