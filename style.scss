@@ -424,8 +424,11 @@ a.button-minimal:active {
 }
 
 .home .hero.with-featured-image {
-    @media screen and (max-device-width: $break-small){
-        background-position: 50% 45px;
+    @media screen and (max-width: 600px){
+        background-position: 50% 120px;
+    }
+    @media (min-width: 600px) and (max-width:1000px){
+    	background-position: 50% 150px;
     }
     margin-top: 60px;
     background-position: 50% 10px;

@@ -355,9 +355,12 @@ a.button-minimal:active {
   -moz-background-position: 0 10px;
   -o-background-position: 0 10px;
   -webkit-background-position: 0 10px; }
-  @media screen and (max-device-width: 1020px) {
+  @media screen and (max-width: 600px) {
     .home .hero.with-featured-image {
-      background-position: 50% 45px; } }
+      background-position: 50% 120px; } }
+  @media (min-width: 600px) and (max-width: 1000px) {
+    .home .hero.with-featured-image {
+      background-position: 50% 150px; } }
 
 .hero.with-featured-image {
   padding: 170px 0px;
