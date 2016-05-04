@@ -34,7 +34,7 @@ body.category {
 		position: relative;
 		&::before{
     			background: url("/wp-content/uploads/2016/04/cover.png");
-			-webkit-filter: blur(15px);
+			filter: blur(15px);
 			background-size:cover;
 			content:"";
 			width:100%;
